@@ -3,10 +3,9 @@ from botocore.exceptions import ClientError
 from csv import DictReader
 import json
 
-
 def main():
 
-    with open("./data/clean.csv") as f:
+    with open("../data/clean.csv") as f:
         emails: dict[str, list] = dict()
         reader = DictReader(f)
         for row in reader:
@@ -25,7 +24,7 @@ def main():
         NAME = "The Michigan Daily Cupids"
         SENDER = f"{NAME} <noreply@michigandaily.com>"
         SUBJECT = "You've been struck by a Michigan Daily Cupid"
-        BASE_URL = "https://specials.michigandaily.com/2024/love-notes"
+        BASE_URL = "https://specials.michigandaily.com/2025/love-notes"
         AWS_REGION = "us-east-2"
         CHARSET = "UTF-8"
 

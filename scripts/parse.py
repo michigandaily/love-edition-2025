@@ -1,5 +1,6 @@
 from csv import DictReader, DictWriter
 from json import dump
+import os
 
 
 def get_email(recipient: str):
@@ -26,7 +27,7 @@ def get_recipients(recipients: str):
 def main():
     rows = list()
     notes = list()
-    with open("./data/raw.csv") as f:
+    with open("../data/raw.csv") as f:
         reader = DictReader(f)
         i = 0
         for row in reader:
@@ -44,7 +45,7 @@ def main():
             notes.append(note)
             i += 1
 
-    with open("./data/clean.csv", "w") as f:
+    with open("../data/clean.csv", "w") as f:
         fieldnames = ["index", "note", "recipient", "sender"]
         writer = DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
