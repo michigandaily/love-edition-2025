@@ -1,4 +1,3 @@
-import React from "react";
 import "./Notecard.css";
 
 const Notecard: React.FC = () => {
