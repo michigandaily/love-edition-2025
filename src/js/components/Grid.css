@@ -1,7 +1,15 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); /* Default 2 cols */
   gap: 20px;
   margin: 20px;
+  justify-items: center;
+  align-items: center;
 }
 
+/* flexible for mobile devices */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr; /* One column for mobile */
+  }
+}

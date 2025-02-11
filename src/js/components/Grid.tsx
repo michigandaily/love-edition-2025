@@ -2,22 +2,22 @@ import Notecard from "./Notecard";
 import "./Grid.css";
 
 const Grid: React.FC = () => {
-  const rows = 4; //CHANGE THIS
-  const columns = 2; //UNSURE?
+  const messages = [
+    "Hey",
+    "Wassup",
+    "Hello",
+    "Hi"
+  ]; // random text for testing (READ LOVENOTES text into here!!!)
 
   const renderNotecards = () => {
-    const notecards = [];
-    for (let i = 0; i < rows * columns; i++) {
-      notecards.push(<Notecard key={i} />);
-    }
-    return notecards;
+    return messages.map((message, index) => (
+      <div key={index} className="wrapper">
+        <Notecard text={message} /> {/* Pass different text to each Notecard */}
+      </div>
+    ));
   };
 
-  return (
-    <div className="grid">
-      {renderNotecards()}
-    </div>
-  );
+  return <div className="grid">{renderNotecards()}</div>;
 };
 
 export default Grid;
