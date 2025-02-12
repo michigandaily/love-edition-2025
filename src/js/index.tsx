@@ -1,9 +1,10 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './App';
+import App from './LandingPage';
+import LandingPage from './LandingPage';
 
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
-		<App />
+		<LandingPage />
 	</StrictMode>
 );
