@@ -7,61 +7,80 @@ body {
 }
 
 footer {
-  display: grid;
-  grid-template-columns: 1.5fr 0.5fr 1.5fr;
-  align-items: stretch;
-  padding: 20px;
-  background-color: white;
-  font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
-  margin: 10px;
+	display: grid;
+	grid-template-columns: 1.5fr 0.5fr 1.5fr;
+	align-items: stretch;
+	padding: 20px;
+	background-color: white;
+	font-family:
+		Lucida Sans Typewriter,
+		Lucida Console,
+		monaco,
+		Bitstream Vera Sans Mono,
+		monospace;
+	margin: 10px;
 }
 
 .footer-mailbox {
-  grid-column: 1 / span 1;
-  display: flex;
-  align-items: center;
-  margin-left: 15px;
+	grid-column: 1 / span 1;
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
 }
 
 .footer-square {
-  position: absolute;
-  left: 65px;
-  top: 80px;
-  width: 90px;
-  height: auto;
-  background-color: white;
-  padding: 5px;
-  font-size: 0.75em;
-  text-align: center;
-  box-shadow: 5px 3px 3px rgb(125, 124, 124);
+	position: absolute;
+	left: 65px;
+	top: 80px;
+	width: 90px;
+	height: auto;
+	background-color: white;
+	padding: 5px;
+	font-size: 0.75em;
+	text-align: center;
+	box-shadow: 1px 4px 3px 3px rgb(125, 124, 124);
 }
 
 .footer-content {
-  grid-column: 3 / span 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+	grid-column: 3 / span 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .footer-icons {
-  padding-top: 20px;
+	padding-top: 20px;
 }
 
 .footer-icons img {
-  width: 30px;
-  height: auto;
-  margin-right: 25px;
+	width: 30px;
+	height: auto;
+	margin-right: 25px;
 }
 
 @media (max-width: 768px) {
-  .footer {
-    grid-template-columns: 1fr;
-    text-align: center;
-    align-items: center;
+	.footer {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		padding: 10px;
+		margin: auto;
+		font-size: smaller;
+	}
+
+	.footer-mailbox {
+		max-width: 80%;
+		align-items: center;
+		margin-left: 0;
+	}
+
+  .footer-content {
+    margin: 10px;
   }
 
-  .footer-icons {
-    justify-content: center;
-    margin-top: 15px;
+  .footer-square {
+    padding: 10px;
   }
 }
+
