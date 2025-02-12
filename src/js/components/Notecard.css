@@ -48,7 +48,7 @@
   top: 0;
   left: 0;
   border-top: 100px solid transparent;
-  border-right: 150px solid #c4dff0;
+  border-right: 150px solid #a4d4f2;
   border-bottom: 100px solid #c4dff0;
   border-left: 150px solid #a4d4f2;
   z-index: 3;
@@ -99,3 +99,4 @@
   transform: translate(-50%, -50%);
   font-size: 40px;
 }
+
