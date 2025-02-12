@@ -7,14 +7,19 @@ const Grid: React.FC = () => {
     "Wassup",
     "Hello",
     "Happy birthday Jeff! Have a good birthday!"
-  ]; // random text for testing (READ LOVENOTES text into here!!!)
+  ]; // Example messages
+
+  const colors = ["blue", "pink", "yellow"]; // Choose colors you want idk
 
   const renderNotecards = () => {
-    return messages.map((message, index) => (
-      <div key={index} className="wrapper">
-        <Notecard text={message} /> {/* Pass different text to each Notecard */}
-      </div>
-    ));
+    return messages.map((message, index) => {
+      const color = colors[index % colors.length]; // Alternate colors
+      return (
+        <div key={index} className="wrapper">
+          <Notecard text={message} color={color} />
+        </div>
+      );
+    });
   };
 
   return <div className="grid">{renderNotecards()}</div>;
