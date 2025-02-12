@@ -9,7 +9,9 @@ const Notecard: React.FC<NotecardProps> = ({ text }) => {
     <div className="wrapper">
       <div className="lid one"></div>
       <div className="lid two"></div>
-      <div className="envelope"></div>
+      <div className="envelope">
+      <div className="heart">❤️</div>
+      </div>
       <div className="letter">
         <p>{text}</p>
       </div>

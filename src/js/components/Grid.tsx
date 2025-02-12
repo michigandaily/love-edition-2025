@@ -6,7 +6,7 @@ const Grid: React.FC = () => {
     "Hey",
     "Wassup",
     "Hello",
-    "Hi"
+    "Hiadleaeahd\nkeakdkjeabdkbakdas\njjjjjj\bjjjjjjjjs\nsssss\nssss"
   ]; // random text for testing (READ LOVENOTES text into here!!!)
 
   const renderNotecards = () => {

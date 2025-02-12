@@ -60,9 +60,14 @@
   width: 80%;
   height: 80%;
   background-color: white;
+  overflow:scroll;
   border-radius: 15px;
   z-index: 2;
   transition: 0.5s;
+  text-align: center;
+  word-wrap: break-word; /* Ensures long words wrap properly */
+  white-space: normal; /* Ensures text wraps to new lines */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .letter p {
@@ -83,6 +88,14 @@
 }
 
 .wrapper:hover .letter {
-  transform: translateY(-50px);
+  transform: translateY(-80px);
   transition-delay: 0.5s;
+}
+
+.heart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
 }
