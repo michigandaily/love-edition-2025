@@ -21,12 +21,15 @@
   cursor: pointer;
   transition: background 0.3s ease; 
   margin: 0 20px;
+  line-height: 1; // prevent space from affecting positioning
+  text-align: center;
 }
 
 .arrow.left {
     display: flex;
     align-self: center;
     align-content: center;
+    vertical-align: middle;
     flex-wrap: wrap;
     flex-direction: column-reverse;
     justify-content: flex-start;
@@ -59,8 +62,8 @@
 
 // part of the Article component
 .envelope {
-    height: 300px;
-    width: 650px;
+    height: 60vh;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -69,6 +72,7 @@
 .article-info {
     align-self: flex-start;
     padding: 10px;
+    width: 75%;
 }
 
 .article-info h3 {
@@ -86,6 +90,7 @@
     align-self: flex-end;
     position: absolute;
     padding: 10px;
+    flex-grow: 1;
 }
 
 .stamp img {
@@ -93,15 +98,16 @@
 }
 
 .photo {
-   text-align: center;
+    text-align: center;
     align-self: center;
-    margin-top: auto;
     bottom: 0;
-    padding-bottom: 25px;
-    max-height: 60%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    max-height: 65%;
 }
 
 .photo img {
-    width: 350px;
+    width: auto;
+    height: 100%;
     max-width: 95%;
 }
