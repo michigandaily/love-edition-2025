@@ -92,13 +92,12 @@ footer {
 .landing-page-container {
 	position: relative;
 	width: 100vw; /* Full width of the screen */
-	height: 100vh; /* Height adjusts based on the aspect ratio of the image */
 	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-image: url('../assets/background.png');
-	// background-size: 100% auto; /* Scale the width to 100%, height adjusts automatically */
+	background-size: 100% auto; /* Scale the width to 100%, height adjusts automatically */
 	background-position: 0% 20%;
 	background-repeat: no-repeat; /* Ensures the image is not repeated */
 	overflow-y: scroll; /* Allows scrolling if the image height exceeds the screen height */
