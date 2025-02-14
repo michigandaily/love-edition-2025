@@ -1,0 +1,96 @@
+// part of ArticleGallery component
+.letter-with-arrows {
+    display: flex;
+    margin-top: 10%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+  background-color: rgba(0, 0, 0, 0.2); /* Translucent background */
+  border: none;
+  border-radius: 50%; /* Makes it round */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s ease; 
+  margin: 0 20px;
+}
+
+.arrow::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 60px;
+}
+
+/* Left arrow (rotated for left direction) */
+.arrow.left::before {
+  transform: rotate(135deg);
+}
+
+/* Right arrow (rotated for right direction) */
+.arrow.right::before {
+  transform: rotate(-45deg);
+}
+
+/* Hover effect */
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Darker on hover */
+}
+
+.placeholder {
+  background-color: rgba(0, 0, 0, 0);
+  cursor: default;
+}
+
+.placeholder:hover {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: default;
+}
+
+// part of the Article component
+.envelope {
+    height: 300px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.article-info {
+    align-self: flex-start;
+    padding: 10px;
+}
+
+.article-info h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.article-info p {
+    margin: 0;
+}
+
+.stamp {
+    align-self: flex-end;
+    position: absolute;
+    padding: 10px;
+}
+
+.stamp img {
+    width: 75px;
+}
+
+.photo {
+    align-self: center;
+    margin-top: auto;
+    bottom: 0;
+    padding-bottom: 25px;
+}
+
+.photo img {
+    width: 350px;
+}
