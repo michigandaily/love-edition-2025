@@ -5,6 +5,8 @@
 	margin: 20px;
 	justify-items: center;
 	align-items: center;
+	row-gap: 4rem;
+	padding: 5rem;
 }
 
 /* flexible for mobile devices */

@@ -1,7 +1,7 @@
-import '../css/article.scss';
-import '../css/main.scss';
-import logoStamp from '../../assets/logo-stamp.png';
-import letterPhoto from '../../assets/letter-photo.png';
+import '../../css/article.scss';
+import '../../css/main.scss';
+import logoStamp from '../../assets/logo-small.svg';
+// import letterPhoto from '../../assets/letter-photo.png';
 
 const Article = ({
 	title,
@@ -18,6 +18,7 @@ const Article = ({
 }) => {
 	// date is in MM/DD/YYYY format
 	// photo is a local path to where the photo is located (might need to change this)
+
 
 	return (
 		<div className="envelope">

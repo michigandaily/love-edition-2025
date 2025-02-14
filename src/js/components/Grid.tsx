@@ -2,7 +2,7 @@ import Notecard from './Notecard';
 import '../../css/Grid.css';
 
 const Grid: React.FC = () => {
-	const messages = ['Hey', 'Wassup', 'Hello', 'Happy birthday Jeff! Have a good birthday!']; // Example messages
+	const messages = ['Hey', 'Wassup', 'Hello', 'Happy birthday Jeff! Have a good birthday! This is a really long example message because i want to check if scrolling works']; // Example messages
 
 	const colors = ['blue', 'pink', 'yellow']; // Choose colors you want idk
 

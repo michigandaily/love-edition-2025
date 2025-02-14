@@ -52,6 +52,9 @@
 }
 
 /* BLUE THEME */
+.wrapper.blue{
+  background-color: #3760c9;
+}
 .wrapper.blue .lid.one {
   border-top: 100px solid #658ced;
 }
@@ -65,6 +68,9 @@
 }
 
 /* PINK THEME */
+.wrapper.pink{
+  background-color: #ff85a2;
+}
 .wrapper.pink .lid.one {
   border-top: 100px solid pink;
 }
@@ -78,6 +84,9 @@
 }
 
 /* YELLOW THEME */
+.wrapper.yellow{
+  background-color: #ffeb99;
+}
 .wrapper.yellow .lid.one {
   border-top: 100px solid lightyellow;
 }
@@ -103,11 +112,12 @@
   text-align: center;
   word-wrap: break-word;
   white-space: normal;
+  padding: 1rem;
 }
 
 .letter p {
-  font-size: 30px;
-  margin-top: 30px;
+  font-size: 1rem;
+  /* margin-top: 3px; */
   color: #3b4049;
 }
 
@@ -122,7 +132,7 @@
 }
 
 .wrapper:hover .letter {
-  transform: translateY(-110px);
+  transform: translateY(-70px);
   transition-delay: 0.5s;
 }
 

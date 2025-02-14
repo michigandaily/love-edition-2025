@@ -17,7 +17,7 @@ const Footer = () => {
 				</p>
 				<p>
 					<strong>Developed By:</strong> Madeleine Hong, Alvin Jiang, Julia Mei, Eshaan Nair,
-					Alexander Salinas, & Kristen Su
+					Alexander Salinas and Kristen Su
 				</p>
 				<div className="footer-icons">
 					<a href="https://www.facebook.com/michigandaily" target="_blank" rel="noreferrer">
