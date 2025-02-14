@@ -7,6 +7,7 @@ body {
 }
 
 footer {
+	position: relative;
 	display: grid;
 	grid-template-columns: 1.5fr 0.5fr 1.5fr;
 	align-items: stretch;
@@ -29,6 +30,9 @@ footer {
 }
 
 .footer-square {
+	/* Changed this to absolute position and the footer div to relative
+		but still need to fix it (this moves weirdly when the viewport
+		is somewhere between mobile/media query width and desktop width. */
 	position: absolute;
 	left: 65px;
 	top: 80px;

@@ -1,10 +1,10 @@
-import Facebook from '../assets/facebook.svg';
-import Twitter from '../assets/twitter.svg';
-import Instagram from '../assets/instagram.svg';
-import Mailbox from '../assets/mailbox.svg';
-import '../css/main.scss';
+import Facebook from '../../assets/facebook.svg';
+import Twitter from '../../assets/twitter.svg';
+import Instagram from '../../assets/instagram.svg';
+import Mailbox from '../../assets/mailbox.svg';
+import '../../css/main.scss';
 
-const App = () => {
+const Footer = () => {
 	return (
 		<footer className="footer">
 			<div className="footer-mailbox">
@@ -35,4 +35,4 @@ const App = () => {
 	);
 };
 
-export default App;
+export default Footer;

@@ -1,10 +1,13 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './LandingPage';
-import LandingPage from './LandingPage';
+import Footer from './components/Footer';
+import LandingPage from './components/LandingPage';
+import Grid from './components/Grid';
 
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
 		<LandingPage />
+		<Grid />
+		<Footer />
 	</StrictMode>
 );

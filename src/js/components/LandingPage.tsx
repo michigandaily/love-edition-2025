@@ -30,7 +30,7 @@
 // export default LandingPage;
 
 import React from 'react';
-import '../css/main.scss'; // Import the external CSS file
+import '../../css/main.scss'; // Import the external CSS file
 
 const LandingPage = () => {
 	return (
