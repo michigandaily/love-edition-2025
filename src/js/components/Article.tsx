@@ -21,9 +21,9 @@ const Article = ({
 
 
 	return (
-		<div className="envelope">
+		<div className="postcard">
 			<div className="article-info">
-				<h3>{title}</h3>
+				<h2>{title}</h2>
 				<p>{author}</p>
 				<p>{date}</p>
 			</div>

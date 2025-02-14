@@ -2,7 +2,7 @@ import '../css/article.scss';
 import '../css/main.scss';
 
 import { useState } from 'react';
-import Article from './Article';
+import Article from './ArticleREMOVE';
 
 const ArticleGallery = ({ articles }: ArticleListProps) => {
 	// articles is a list of JSON

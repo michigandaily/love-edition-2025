@@ -3,12 +3,13 @@ import { createRoot } from 'react-dom/client';
 import Footer from './components/Footer';
 import LandingPage from './components/LandingPage';
 import Grid from './components/Grid';
-// import App from './App';
+import ArticleGallery from './components/ArticleGallery';
+import App from './App';
 
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
 		<LandingPage />
-		{/* <App /> */}
+		<App/>
 		<Grid />
 		<Footer />
 	</StrictMode>

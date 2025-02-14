@@ -1,6 +1,6 @@
 import '../css/article.scss';
 import '../css/main.scss';
-import logoStamp from '../assets/logo-stamp.png';
+import logoStamp from '../assets/logo-small.svg';
 import letterPhoto from '../assets/letter-photo.png';
 
 const Article = ({title, author, date, photoUrl, photoAltText}: { title: string, author: string, date: string, photoUrl: string, photoAltText: string}) => {

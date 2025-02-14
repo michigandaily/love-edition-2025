@@ -21,8 +21,6 @@
   cursor: pointer;
   transition: background 0.3s ease; 
   margin: 0 20px;
-  line-height: 1; // prevent space from affecting positioning
-  text-align: center;
 }
 
 .arrow.left {
@@ -61,7 +59,7 @@
 }
 
 // part of the Article component
-.envelope {
+.postcard {
     height: 60vh;
     width: 60vw;
     display: flex;
@@ -71,11 +69,11 @@
 
 .article-info {
     align-self: flex-start;
-    padding: 10px;
+    padding: 1rem;
     width: 75%;
 }
 
-.article-info h3 {
+.article-info h2 {
     margin-top: 0;
     margin-bottom: 5px;
     max-width: 80%;

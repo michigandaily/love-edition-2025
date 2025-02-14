@@ -13,7 +13,7 @@ const Notecard: React.FC<NotecardProps> = ({ text, color }) => {
 			<div className={`envelope ${color}`}>
 				<div className="heart">❤️</div>
 			</div>
-			<div className="letter">
+			<div className="letter" style={{ overflowY: 'scroll' }}>
 				<p>{text}</p>
 			</div>
 		</div>
