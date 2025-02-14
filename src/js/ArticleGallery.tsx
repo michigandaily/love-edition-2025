@@ -16,7 +16,7 @@ const ArticleGallery = ({articles}: ArticleListProps) => {
         <button 
             onClick={() => setIndex(index - 1)} 
             className="arrow left"
-        >
+        >‹
         </button>
         ) : (
         <button 
@@ -31,8 +31,7 @@ const ArticleGallery = ({articles}: ArticleListProps) => {
         <button 
         onClick={() => setIndex(index + 1)} 
         className="arrow right"
-        >
-        </button>
+        >›</button>
         ) : (
         <button 
         className="arrow right placeholder" disabled
@@ -51,6 +50,8 @@ interface ArticleProps {
   title: string;
   author: string;
   date: string;
+  photoUrl: string;
+  photoAltText: string;
 }
 
 interface ArticleListProps {

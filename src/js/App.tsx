@@ -3,24 +3,39 @@ import ArticleGallery from './ArticleGallery';
 // testing purposes
 const articles = [
   {
-    title: "John Cena",
-    author: "Super Idol",
+    title: "My vain fascination with ChatGPT",
+    author: "Statement Correspondent Madison Hammond",
     date: "02/11/2025",
+    photoUrl: "https://www.michigandaily.com/wp-admin/upload.php?item=524724",
+    photoAltText: "Digital illustration of a pink robot smiling, with a heart border around the frame",
   },
   {
-    title: "LeGoat James",
-    author: "Lebron's Number One Fanboy",
+    title: "What is love: Love defined through the eyes of elementary school students",
+    author: "Statement Contributor Lola Post",
     date: "02/12/2025",
+    photoUrl: "https://www.michigandaily.com/wp-admin/upload.php?item=524723",
+    photoAltText: "Digital illustration of a female child coloring a heart on the ground, with love-themed drawings around her"
   },
   {
-    title: "Idk",
-    author: "Daily",
+    title: "Ode to the sapphic love song",
+    author: "Statement Correspondent Amanda Venclovaite-Pirani",
     date: "02/13/2025",
+    photoUrl: "https://www.michigandaily.com/wp-admin/upload.php?item=524721",
+    photoAltText: "Digital illustration of two cassette tapes with two tulips"
   },
   {
-    title: "Article Name 3",
-    author: "Love Notes Article Author",
+    title: "Just friends: Are boys and girls ever purely platonic?",
+    author: "Statement Correspondent Liska Torok",
     date: "02/14/2025",
+    photoUrl: "https://www.michigandaily.com/wp-admin/upload.php?item=524722",
+    photoAltText: "Digital illustration of two hands grazing each other against a pink background"
+  },
+  {
+    title: "Him & I (Me & Her)",
+    author: "Statement Columnist Allana Smith",
+    date: "02/14/2025",
+    photoUrl: "https://www.michigandaily.com/wp-admin/upload.php?item=524720",
+    photoAltText: "Digital illustration of two girls' eyes, looking at each other against a pink background"
   }
 ]
 

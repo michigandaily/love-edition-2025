@@ -3,7 +3,7 @@ import '../css/main.scss';
 import logoStamp from '../assets/logo-stamp.png';
 import letterPhoto from '../assets/letter-photo.png';
 
-const Article = ({title, author, date}: { title: string, author: string, date: string}) => {
+const Article = ({title, author, date, photoUrl, photoAltText}: { title: string, author: string, date: string, photoUrl: string, photoAltText: string}) => {
     // date is in MM/DD/YYYY format
     // photo is a local path to where the photo is located (might need to change this)
 
@@ -19,7 +19,7 @@ const Article = ({title, author, date}: { title: string, author: string, date: s
                 <img src={logoStamp} alt="stamp"/>
             </div>
             <div className="photo">
-                <img src={letterPhoto} alt="letter visual"/>
+                <img src={photoUrl} alt={photoAltText}/>
             </div>
         </div> 
 
