@@ -27,7 +27,7 @@ def get_recipients(recipients: str):
 def main():
     rows = list()
     notes = list()
-    with open("../data/raw.csv") as f:
+    with open("data/raw.csv") as f:
         reader = DictReader(f)
         i = 0
         for row in reader:
@@ -45,14 +45,14 @@ def main():
             notes.append(note)
             i += 1
 
-    with open("../data/clean.csv", "w") as f:
+    with open("data/clean.csv", "w") as f:
         fieldnames = ["index", "note", "recipient", "sender"]
         writer = DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         for row in rows:
             writer.writerow(row)
 
-    with open("../src/data.json", "w") as f:
+    with open("src/data.json", "w") as f:
         obj = {i: notes[i] for i in range(len(notes))}
         dump(obj, f, indent=2)
 
