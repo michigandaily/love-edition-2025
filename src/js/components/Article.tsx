@@ -7,12 +7,14 @@ const Article = ({
 	title,
 	author,
 	date,
+	articleUrl,
 	photoUrl,
 	photoAltText
 }: {
 	title: string;
 	author: string;
 	date: string;
+	articleUrl: string;
 	photoUrl: string;
 	photoAltText: string;
 }) => {
@@ -20,8 +22,8 @@ const Article = ({
 	// photo is a local path to where the photo is located (might need to change this)
 
 	return (
-		<div className="postcard">
-			<div className="article-info">
+		<div className="postcard" onClick={() => window.open(articleUrl, '_blank')}>
+			<div className="article-info" onClick={(e) => e.stopPropagation()}>
 				<h2>{title}</h2>
 				<p>{author}</p>
 				<p>{date}</p>

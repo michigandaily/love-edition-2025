@@ -7,6 +7,7 @@
 	align-items: center;
 	row-gap: 4rem;
 	padding: 5rem;
+	padding-top: 10rem;
 }
 
 /* flexible for mobile devices */

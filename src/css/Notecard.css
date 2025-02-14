@@ -104,22 +104,41 @@
   position: absolute;
   top: 0;
   width: 80%;
-  height: 80%;
+  height: 90%;
   background-color: white;
-  overflow: scroll;
-  border-radius: 15px;
+  overflow-y: scroll;
+  scrollbar-width: thin; /* Firefox: makes scrollbar thinner */
+  scrollbar-color: gray lightgray;
+
+  border-radius: 10px;
   z-index: 2;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
   word-wrap: break-word;
   white-space: normal;
   padding: 1rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* WebKit-based browsers (Chrome, Edge, Safari) */
+.letter::-webkit-scrollbar {
+  width: 8px; /* Adjust width */
+}
+
+.letter::-webkit-scrollbar-track {
+  background: lightgray; /* Background of scrollbar */
+}
+
+.letter::-webkit-scrollbar-thumb {
+  background: gray; /* Color of the scrollbar */
+  border-radius: 4px;
 }
 
 .letter p {
   font-size: 1rem;
   /* margin-top: 3px; */
   color: #3b4049;
+  padding-bottom: 20px;
 }
 
 .wrapper:hover .lid.one {
@@ -133,7 +152,7 @@
 }
 
 .wrapper:hover .letter {
-  transform: translateY(-60px);
+  transform: translateY(-110px);
   transition-delay: 0.5s;
 }
 
