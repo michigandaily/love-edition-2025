@@ -19,7 +19,7 @@
 	"devDependencies": {
 		"@michigandaily/rollup-plugin-dsv": "michigandaily/rollup-plugin-dsv#v2.0.0",
 		"@michigandaily/vite-plugin-transform-nunjucks": "michigandaily/vite-plugin-transform-nunjucks#v2.0.1",
-		"@types/react": "^18.2.57",
+		"@types/react": "^18.3.18",
 		"@types/react-dom": "^18.2.19",
 		"@typescript-eslint/eslint-plugin": "^7.5.0",
 		"@typescript-eslint/parser": "^7.5.0",

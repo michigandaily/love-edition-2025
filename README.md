@@ -14,7 +14,7 @@ It has several useful features:
 ## Using this template
 
 Click the green "Use this template" button to create a new instance of the `sourdough` template. Then, clone the new instance and run `pnpm install` to initialize the project.
-
+git@github.com:michigandaily/love-edition-2025.git
 You can use `pnpm dev` to start a development server and `pnpm build` to build production-ready files into `dist/`.
 
 ### Importing images
