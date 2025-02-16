@@ -39,6 +39,7 @@ interface ArticleProps {
 	title: string;
 	author: string;
 	date: string;
+	articleUrl: string;
 	photoUrl: string;
 	photoAltText: string;
 }

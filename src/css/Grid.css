@@ -6,8 +6,27 @@
 	justify-items: center;
 	align-items: center;
 	row-gap: 4rem;
-	padding: 5rem;
+	padding: 3rem;
 	padding-top: 10rem;
+}
+
+.grid-container{
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	padding: 2rem;
+}
+#load-more-button{
+	width: 11rem;
+	height: 4rem;
+	align-self: center;
+	border-radius: 5px;
+	background-color: #f1b6b4;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	font-size: medium;
+	padding: 1rem;
 }
 
 /* flexible for mobile devices */
