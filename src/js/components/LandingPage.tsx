@@ -39,7 +39,11 @@ const LandingPage = () => {
 				alt="Statement Love Edition Cover: Flowers, chocolates, and love letters"
 				id="landing-page-image"
 			></img>
-			<img src="src/assets/chevron_wrapper.png" alt="" id='down-arrow'></img>
+			<img
+				src="https://www.michigandaily.com/wp-content/uploads/2025/02/chevron_wrapper.png"
+				alt=""
+				id="down-arrow"
+			></img>
 		</div>
 	);
 };
