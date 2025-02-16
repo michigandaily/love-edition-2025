@@ -12,11 +12,11 @@ export default defineConfig({
 		react(),
 		dsv({ include: ['**.csv', '**.tsv', '**.dsv'] }),
 		nunjucks({
-			hed: 'The Michigan Daily',
-			dek: 'Description',
-			social_img: '',
+			hed: 'The Statement Love Edition 2025',
+			dek: 'The Statement Magazine presents: Love Edition 2025',
+			social_img: 'https://www.michigandaily.com/wp-content/uploads/2025/02/love-edition-cover-page-scaled.jpg',
 			google_analytics: '',
-			url: 'https://test.michigandaily.com/tmp/key'
+			url: 'https://specials.michigandaily.com/2025/love-notes'
 		})
 	]
 });
