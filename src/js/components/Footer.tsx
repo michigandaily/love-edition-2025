@@ -16,8 +16,8 @@ const Footer = () => {
 					<strong>Designed By:</strong> Sanvika Inturi & Ruhee Jain
 				</p>
 				<p>
-					<strong>Developed By:</strong> Madeleine Hong, Alvin Jiang, Julia Mei, Eshaan Nair,
-					Alexander Salinas and Kristen Su
+					<strong>Developed By:</strong> Emily Chen, Madeleine Hong, Alvin Jiang, Julia Mei, Eshaan
+					Nair, Alexander Salinas and Kristen Su
 				</p>
 				<div className="footer-icons">
 					<a href="https://www.facebook.com/michigandaily" target="_blank" rel="noreferrer">

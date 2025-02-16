@@ -2,13 +2,21 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Lora, serif;
+	// font-family: Lora, serif;
+	font-family:
+		Lucida Sans Typewriter,
+		Lucida Console,
+		monaco,
+		Bitstream Vera Sans Mono,
+		monospace;
 	font-size: 16px;
-	background-color: #FCE2C8;
+	background-color: #fce2c8;
 }
 
 footer {
-	position: relative;
+	position: sticky;
+	bottom: 0;
+	// position: relative;
 	display: grid;
 	grid-template-columns: 1.5fr 0.5fr 1.5fr;
 	align-items: stretch;
@@ -90,18 +98,18 @@ footer {
 }
 
 .landing-page-container {
-  position: relative;
-  width: 100%; /* Full width of the screen */
-  height: auto; /* Height adjusts based on the aspect ratio of the image */
-  min-height: 200vh; /* Ensure at least full screen height */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('../assets/background.png');
-  background-size: 100% auto; /* Scale the width to 100%, height adjusts automatically */
-  background-position: center;
-  background-repeat: no-repeat; /* Ensures the image is not repeated */
-  overflow-y: scroll; /* Allows scrolling if the image height exceeds the screen height */
+	position: relative;
+	width: 100%; /* Full width of the screen */
+	height: auto; /* Height adjusts based on the aspect ratio of the image */
+	min-height: 200vh; /* Ensure at least full screen height */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../assets/background.png');
+	background-size: 100% auto; /* Scale the width to 100%, height adjusts automatically */
+	background-position: center;
+	background-repeat: no-repeat; /* Ensures the image is not repeated */
+	overflow-y: scroll; /* Allows scrolling if the image height exceeds the screen height */
 }
 
 .overlay {

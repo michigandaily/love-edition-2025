@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '18':
+        specifier: ^0.0.0
+        version: 0.0.0
+      jquery:
+        specifier: ^3.7.1
+        version: 3.7.1
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -71,6 +77,9 @@ importers:
         version: 5.1.7(sass@1.71.1)
 
 packages:
+
+  18@0.0.0:
+    resolution: {integrity: sha512-2SPMA/ciHy16yY4uVXDrW8q7nLwb2F2Vrt8Qz5OiVo9cyC8Wo8/rwC2hDzbqlTXhIwzt2Y4yJRLem6XMNbT/3A==}
 
   '@aashutoshrathi/word-wrap@1.2.6':
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
@@ -1664,6 +1673,9 @@ packages:
   iterator.prototype@1.1.2:
     resolution: {integrity: sha512-DR33HMMr8EzwuRL8Y9D3u2BMj8+RqSE850jfGu59kS7tbmPLzGkZmVSfyCFSDxuZiEY6Rzt3T2NA/qU+NwVj1w==}
 
+  jquery@3.7.1:
+    resolution: {integrity: sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==}
+
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
 
@@ -2228,6 +2240,8 @@ packages:
     engines: {node: '>=12.20'}
 
 snapshots:
+
+  18@0.0.0: {}
 
   '@aashutoshrathi/word-wrap@1.2.6': {}
 
@@ -4595,6 +4609,8 @@ snapshots:
       has-symbols: 1.0.3
       reflect.getprototypeof: 1.0.5
       set-function-name: 2.0.2
+
+  jquery@3.7.1: {}
 
   js-tokens@4.0.0: {}
 
