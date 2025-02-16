@@ -83,9 +83,10 @@ footer {
 	}
 
 	.footer-mailbox {
-		max-width: 80%;
-		align-items: center;
-		margin-left: 0;
+		// max-width: 80%;
+		// align-items: center;
+		// margin-left: 0;
+		display: none;
 	}
 
 	.footer-content {
@@ -93,7 +94,8 @@ footer {
 	}
 
 	.footer-square {
-		padding: 10px;
+		// padding: 10px;
+		display: none;
 	}
 }
 
@@ -125,6 +127,7 @@ footer {
 	position: absolute;
 	top: 20px; /* Distance from the top */
 	left: 20px; /* Distance from the right */
+	// right: 20px; /* test */
 	z-index: 10;
 	text-align: center;
 	padding: 1.5rem;
