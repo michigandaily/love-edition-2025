@@ -112,3 +112,28 @@
     height: auto;
     max-width: 95%;
 }
+
+@media screen and (max-width: 768px) {
+    .letter-with-arrows {
+       margin-top: 150px;
+    }
+
+    .postcard{
+        width: 100vw;
+    }
+
+    .article-info {
+        align-self: flex-start;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .stamp{
+        display: none;
+    }
+
+    .photo img{
+        width: 90%;
+        height: auto;
+    }
+}
